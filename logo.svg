@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" fill="white"/>
+<line x1="17.9857" y1="51.2333" x2="45.6011" y2="14.6985" stroke="black"/>
+<line x1="50.5" y1="14" x2="50.5" y2="25" stroke="black"/>
+<line x1="19" y1="8.5" x2="44" y2="8.5" stroke="black"/>
+<line x1="13.5" y1="14" x2="13.5" y2="24" stroke="black"/>
+<line x1="45" y1="31.5" x2="21" y2="31.5" stroke="black"/>
+<circle cx="14" cy="9" r="5" fill="#BD10E0"/>
+<circle cx="14" cy="54" r="5" fill="#E86363"/>
+<circle cx="50" cy="9" r="5" fill="#B8E986"/>
+<circle cx="50" cy="32" r="5" fill="#FFD300"/>
+<circle cx="14" cy="31" r="5" fill="#50E3C2"/>
+<path d="M45 8.5L42.75 9.79904V7.20096L45 8.5Z" fill="black"/>
+<path d="M46.9871 12.8897L46.5943 15.6129L44.5026 14.0719L46.9871 12.8897Z" fill="black"/>
+<path d="M19 31.5L21.25 30.201V32.799L19 31.5Z" fill="black"/>
+<path d="M50.5 27L49.201 24.75H51.799L50.5 27Z" fill="black"/>
+<path d="M13.5 49L12.201 46.75H14.799L13.5 49Z" fill="black"/>
+<path d="M13.5 26L12.201 23.75H14.799L13.5 26Z" fill="black"/>
+<line x1="13.5" y1="36" x2="13.5" y2="47" stroke="black"/>
+</svg>

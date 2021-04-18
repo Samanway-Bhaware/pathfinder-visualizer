@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="icon" type="image" href="./logo.svg">
+</head>
+<body onload="pageScroll()">
+
+<div id="particles-js"></div>
+
+  
+    <script  src="./script.js"></script>
+<div class="text">
+  <h1>Pathfinding Visualizer</h1>
+  <h2>At its core, a pathfinding algorithm seeks to find the shortest path between two points.<br>This application visualizes Dijkstras and A* pathfinding algorithms in action!</h2>
+</div>
+
+
+<div class="dijk">
+  <h1>Dijkstras Algorithm</h1>
+  
+  <h3><p>Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.
+
+    The algorithm exists in many variants. Dijkstra's original algorithm found the shortest path between two given nodes, but a more common variant fixes a single node as the "source" node and finds shortest paths from the source to all other nodes in the graph, producing a shortest-path tree.
+  For a given source node in the graph, the algorithm finds the shortest path between that node and every other. It can also be used for finding the shortest paths from a single node to a single destination node by stopping the algorithm once the shortest path to the destination node has been determined.
+</p></h3>
+
+<div class="button-container-1">
+  <span class="mas">Flowchart ➡️</span>
+<a href="dijk.html" target="_blank"><button id='work' type="button" name="Hover">Flowchart ➡️</button></a>
+</div>
+</div>
+
+<div class="astar">
+  <h1>A star Algorithm</h1>
+  <h3><p>A* is an informed search algorithm, or a best-first search, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost. It does this by maintaining a tree of paths originating at the start node and extending those paths one edge at a time until its termination criterion is satisfied.
+
+    At each iteration of its main loop, A* needs to determine which of its paths to extend. It does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal. Specifically, A* selects the path that minimizes
+    f(n)=g(n)+h(n)
+    where n is the next node on the path, g(n) is the cost of the path from the start node to n, and h(n) is a heuristic function that estimates the cost of the cheapest path from n to the goal.
+    </p></h3>
+
+    <div class="button-container-1">
+      <span class="mas">Flowchart ➡️</span>
+    <a href="astar.html" target="_blank"><button id='work' type="button" name="Hover">Flowchart ➡️</button></a>
+    </div>
+</div>
+
+<div class="visual">
+<div class="button-container-2">
+  <span class="mas">Visualize Algorithms 🚀</span>
+<a href="visualizer.html" target="_blank"><button type="button" name="Hover">Visualize Algorithms 🚀</button></a>
+</div>
+</div>
+
+
+</body>
+</html>
